@@ -687,7 +687,7 @@ class LockScreen extends LinearLayout implements KeyguardScreen, KeyguardUpdateM
     }
 
     private void refreshTimeAndDateDisplay() {
-        mDate.setText(DateFormat.format(mDateFormatString, new Date()));
+        mDate.setText(DateFormat.format(mDateFormatString, new Date(), getContext()));
     }
 
     private void updateStatusLines() {

@@ -375,7 +375,7 @@ class PatternUnlockScreen extends LinearLayoutWithDefaultTouchRecepient
 
 
     private void refreshTimeAndDateDisplay() {
-        mDate.setText(DateFormat.format(mDateFormatString, new Date()));
+        mDate.setText(DateFormat.format(mDateFormatString, new Date(), getContext()));
     }
 
 
