@@ -143,6 +143,7 @@ class GlobalActions implements DialogInterface.OnDismissListener, DialogInterfac
                 // next: silent mode
                 mSilentModeToggle,
                 // next: reboot
+                /*
                 new SinglePressAction(com.android.internal.R.drawable.ic_lock_power_off, R.string.global_action_reboot) {
 
                     public void onPress() {
@@ -156,7 +157,7 @@ class GlobalActions implements DialogInterface.OnDismissListener, DialogInterfac
                     public boolean showBeforeProvisioning() {
                         return true;
                     }
-		},
+		}, */
                 // last: power off
                 new SinglePressAction(com.android.internal.R.drawable.ic_lock_power_off, R.string.global_action_power_off) {
 
